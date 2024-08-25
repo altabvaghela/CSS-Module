@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 20px;
+    columns:5;
+    column-gap: 20px;
+
+}
+.container .box{
+    width: 100%;
+    margin-bottom: 10px;
+}
+.container .box img{
+    max-width: 100%;
+    border-radius: 15px;
+    transition: transform 0.3s ease; 
+
+}
+.container .box img:hover{
+    transform: scale(1.05); 
+    cursor: pointer;
+}

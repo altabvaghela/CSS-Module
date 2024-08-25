@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 400px;
+    width: 400px;
+    border: 2px solid black;
+    border: 30px solid #f9f90e;
+    border-radius: 50%;
+    background-color: #c07300;
+    background: #e48a00;
+    border-left: none;
+    border-top: none;
+    position: absolute;
+    cursor: pointer;
+    top: 20%;
+    left: 35%;
+
+}
+body{
+    background-color: #c07300;
+
+}

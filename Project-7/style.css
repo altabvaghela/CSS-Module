@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-image{
+    bottom: 100%;
+    left: 0%;
+    top: 100%;
+}
+.main-text h1{
+    padding-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 30px;
+}
+
+.developer-images img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+.boy-image img{
+    position: absolute;
+    bottom: 0%;
+    left: 10%;
+    top: 34%;
+}
+.boy-image-1 img{
+    position: absolute;
+    bottom: 0%;
+    left: 30%;
+    top: 20%;
+}
+.boy-image-2 img{
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    top: 30%;
+}
+.boy-image-3 img{
+    position: absolute;
+    bottom: 0%;
+    left: 70%;
+    top: 28%;
+}
+.boy-image-4 img{
+    position: absolute;
+    bottom: 0%;
+    left: 86%;
+    top: 14%;
+}

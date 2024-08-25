@@ -1,0 +1,86 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-color: #1A100E;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+}
+
+.section-1 h1 {
+    text-align: end;
+    font-size: 40px;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    padding-bottom: 20px;
+}
+
+.section-1 span {
+    border: 3px solid #ffffff;
+    font-size: 26px;
+    text-align: center;
+    font-weight: bolder;
+    margin-left: 26px;
+
+}
+
+.section-image img {
+    width: 600px;
+    height: 500px;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.main-content h3 {
+    text-align: end;
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.main-content p {
+    text-align: end;
+}
+
+.main-content #i-tv {
+    position: absolute;
+    top: 28%;
+    left: 51%;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 26px;
+}
+
+.main-content #i-image {
+    position: absolute;
+    top: 44%;
+    left: 51%;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 26px;
+
+}
+
+.main-content #i-camera {
+    position: absolute;
+    top: 60%;
+    left: 51%;
+    background-color: #ffffff;
+    color: #000000;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 26px;
+}
